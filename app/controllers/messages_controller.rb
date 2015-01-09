@@ -4,6 +4,6 @@ class MessagesController < ApplicationController
 
   def show
     text_to_alert = 'Hello There'
-    render text: text_to_alert
+    render plain: text_to_alert
   end
 end
